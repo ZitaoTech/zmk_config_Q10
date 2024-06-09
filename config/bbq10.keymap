@@ -49,6 +49,8 @@
 
         app_shift {
             bindings = <&kp LA(TAB)>;
+            key-positions = <3 5>;
+            layers = <0>;
         };
     };
 
@@ -58,7 +60,7 @@
         default_layer {
             bindings = <
 &mkp LCLK    &mkp RCLK
-&app_shift     &kp LGUI   &mkp LCLK  &mt ESC K_BACK  &kp TAB
+&kp CLCK     &kp LGUI   &mkp LCLK  &mt ESC K_BACK  &kp TAB
 &bhm HASH Q  &bhm N1 W  &bhm N2 E  &bhm N3 R       &bhm LPAR T   &bhm RPAR Y     &bhm UNDER U  &bhm MINUS I  &bhm PLUS O  &bhm AT P
 &bhm STAR A  &bhm N4 S  &bhm N5 D  &bhm N6 F       &bhm SLASH G  &bhm COLON H    &bhm SEMI J   &bhm APOS K   &bhm DQT L   &kp BSPC
 &kp LSHFT    &bhm N7 Z  &bhm N8 X  &bhm N9 C       &bhm QMARK V  &bhm EXCL B     &bhm COMMA N  &bhm DOT M    &kp SEMI     &kp ENTER
